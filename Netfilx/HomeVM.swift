@@ -31,8 +31,8 @@ class HomeVM: ObservableObject {
         movies["Netfilx Originals"] = exampleMovies.shuffled()
         movies["Comedies"] = exampleMovies.shuffled()
         movies["Animation"] = exampleMovies.shuffled()
-        movies["Egyption Comedies"] = exampleMovies.shuffled()
-        movies["Egyption Movies"] = exampleMovies.shuffled()
+        movies["Egyptian Comedies"] = exampleMovies.shuffled()
+        movies["Egyptian Movies"] = exampleMovies.shuffled()
         movies["New Releases"] = exampleMovies.shuffled()
     }
 }

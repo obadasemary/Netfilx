@@ -20,6 +20,10 @@
 		AF72DCCB24FD4A7A008CDBCD /* StandarHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */; };
 		AF72DCCD24FD4AF7008CDBCD /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */; };
 		AF72DCCF24FD4E85008CDBCD /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */; };
+		AF72DCD124FD84A7008CDBCD /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCD024FD84A7008CDBCD /* TopMoviePreview.swift */; };
+		AF72DCD324FD8AEF008CDBCD /* TopMoviesPreviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCD224FD8AEF008CDBCD /* TopMoviesPreviewVM.swift */; };
+		AF72DCD524FD8CC1008CDBCD /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCD424FD8CC1008CDBCD /* SmallVerticalButton.swift */; };
+		AF72DCD724FD9352008CDBCD /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCD624FD9352008CDBCD /* WhiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandarHomeMovie.swift; sourceTree = "<group>"; };
 		AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		AF72DCD024FD84A7008CDBCD /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
+		AF72DCD224FD8AEF008CDBCD /* TopMoviesPreviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesPreviewVM.swift; sourceTree = "<group>"; };
+		AF72DCD424FD8CC1008CDBCD /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
+		AF72DCD624FD9352008CDBCD /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +119,15 @@
 			children = (
 				AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */,
 				AF72DC9724FD3A9D008CDBCD /* ContentView.swift */,
-				AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */,
 				AF72DCC024FD3B4C008CDBCD /* HomeView.swift */,
 				AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */,
+				AF72DCD024FD84A7008CDBCD /* TopMoviePreview.swift */,
+				AF72DCD224FD8AEF008CDBCD /* TopMoviesPreviewVM.swift */,
+				AF72DCD424FD8CC1008CDBCD /* SmallVerticalButton.swift */,
+				AF72DCD624FD9352008CDBCD /* WhiteButton.swift */,
 				AF72DCC824FD49E1008CDBCD /* Movie.swift */,
 				AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */,
+				AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */,
 				AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */,
 				AF72DC9E24FD3A9F008CDBCD /* Info.plist */,
 				AF72DC9B24FD3A9F008CDBCD /* Preview Content */,
@@ -288,11 +300,15 @@
 			files = (
 				AF72DCCD24FD4AF7008CDBCD /* GlobalHelpers.swift in Sources */,
 				AF72DCC124FD3B4C008CDBCD /* HomeView.swift in Sources */,
+				AF72DCD724FD9352008CDBCD /* WhiteButton.swift in Sources */,
 				AF72DCCF24FD4E85008CDBCD /* HomeVM.swift in Sources */,
 				AF72DC9824FD3A9D008CDBCD /* ContentView.swift in Sources */,
 				AF72DCC924FD49E1008CDBCD /* Movie.swift in Sources */,
+				AF72DCD324FD8AEF008CDBCD /* TopMoviesPreviewVM.swift in Sources */,
+				AF72DCD124FD84A7008CDBCD /* TopMoviePreview.swift in Sources */,
 				AF72DC9624FD3A9D008CDBCD /* NetfilxApp.swift in Sources */,
 				AF72DCCB24FD4A7A008CDBCD /* StandarHomeMovie.swift in Sources */,
+				AF72DCD524FD8CC1008CDBCD /* SmallVerticalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

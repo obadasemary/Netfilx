@@ -11,6 +11,8 @@ struct HomeView: View {
     
     var vm = HomeVM()
     
+    let screen = UIScreen.main.bounds
+    
     var body: some View {
         
         ZStack {
@@ -19,6 +21,16 @@ struct HomeView: View {
             
             ScrollView(showsIndicators: false) {
                 LazyVStack {
+                    
+                    ZStack(alignment: .top) {
+                        
+                        TopMoviePreview(movie: exampleMovie3)
+                            .frame(width: screen.width)
+                            .padding(.top, -60)
+                        
+                        TopRowButtons()
+                    }
+                    
                     ForEach(vm.allCategory, id: \.self) { category in
                         
                         VStack {
@@ -50,5 +62,54 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+    }
+}
+
+struct TopRowButtons: View {
+    
+    
+    
+    var body: some View {
+        HStack {
+            
+            Button(action: {
+                
+            }, label: {
+                Image("netflix_logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50)
+            })
+            .buttonStyle(PlainButtonStyle())
+            
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Text("TV Show")
+            })
+            .buttonStyle(PlainButtonStyle())
+            
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Text("Movies")
+            })
+            .buttonStyle(PlainButtonStyle())
+            
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Text("My List")
+            })
+            .buttonStyle(PlainButtonStyle())
+        }
+        .padding(.leading, 10)
+        .padding(.trailing, 30)
     }
 }
