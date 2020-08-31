@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,13 @@
 		AF72DC9D24FD3A9F008CDBCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72DC9C24FD3A9F008CDBCD /* Preview Assets.xcassets */; };
 		AF72DCA824FD3A9F008CDBCD /* NetfilxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCA724FD3A9F008CDBCD /* NetfilxTests.swift */; };
 		AF72DCB324FD3A9F008CDBCD /* NetfilxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCB224FD3A9F008CDBCD /* NetfilxUITests.swift */; };
+		AF72DCC124FD3B4C008CDBCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCC024FD3B4C008CDBCD /* HomeView.swift */; };
+		AF72DCC424FD3E7F008CDBCD /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF72DCC324FD3E7F008CDBCD /* KingfisherSwiftUI */; };
+		AF72DCC724FD49BE008CDBCD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AF72DCC624FD49BE008CDBCD /* Alamofire */; };
+		AF72DCC924FD49E1008CDBCD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCC824FD49E1008CDBCD /* Movie.swift */; };
+		AF72DCCB24FD4A7A008CDBCD /* StandarHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */; };
+		AF72DCCD24FD4AF7008CDBCD /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */; };
+		AF72DCCF24FD4E85008CDBCD /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,11 @@
 		AF72DCAE24FD3A9F008CDBCD /* NetfilxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetfilxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF72DCB224FD3A9F008CDBCD /* NetfilxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxUITests.swift; sourceTree = "<group>"; };
 		AF72DCB424FD3A9F008CDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF72DCC024FD3B4C008CDBCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF72DCC824FD49E1008CDBCD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandarHomeMovie.swift; sourceTree = "<group>"; };
+		AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF72DCC424FD3E7F008CDBCD /* KingfisherSwiftUI in Frameworks */,
+				AF72DCC724FD49BE008CDBCD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +111,11 @@
 			children = (
 				AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */,
 				AF72DC9724FD3A9D008CDBCD /* ContentView.swift */,
+				AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */,
+				AF72DCC024FD3B4C008CDBCD /* HomeView.swift */,
+				AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */,
+				AF72DCC824FD49E1008CDBCD /* Movie.swift */,
+				AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */,
 				AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */,
 				AF72DC9E24FD3A9F008CDBCD /* Info.plist */,
 				AF72DC9B24FD3A9F008CDBCD /* Preview Content */,
@@ -146,6 +165,10 @@
 			dependencies = (
 			);
 			name = Netfilx;
+			packageProductDependencies = (
+				AF72DCC324FD3E7F008CDBCD /* KingfisherSwiftUI */,
+				AF72DCC624FD49BE008CDBCD /* Alamofire */,
+			);
 			productName = Netfilx;
 			productReference = AF72DC9224FD3A9D008CDBCD /* Netfilx.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +240,10 @@
 				Base,
 			);
 			mainGroup = AF72DC8924FD3A9D008CDBCD;
+			packageReferences = (
+				AF72DCC224FD3E7F008CDBCD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				AF72DCC524FD49BE008CDBCD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = AF72DC9324FD3A9D008CDBCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF72DCCD24FD4AF7008CDBCD /* GlobalHelpers.swift in Sources */,
+				AF72DCC124FD3B4C008CDBCD /* HomeView.swift in Sources */,
+				AF72DCCF24FD4E85008CDBCD /* HomeVM.swift in Sources */,
 				AF72DC9824FD3A9D008CDBCD /* ContentView.swift in Sources */,
+				AF72DCC924FD49E1008CDBCD /* Movie.swift in Sources */,
 				AF72DC9624FD3A9D008CDBCD /* NetfilxApp.swift in Sources */,
+				AF72DCCB24FD4A7A008CDBCD /* StandarHomeMovie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +612,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF72DCC224FD3E7F008CDBCD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+		AF72DCC524FD49BE008CDBCD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF72DCC324FD3E7F008CDBCD /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF72DCC224FD3E7F008CDBCD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+		AF72DCC624FD49BE008CDBCD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF72DCC524FD49BE008CDBCD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF72DC8A24FD3A9D008CDBCD /* Project object */;
 }
