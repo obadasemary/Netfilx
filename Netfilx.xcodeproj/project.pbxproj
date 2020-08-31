@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF72DC9624FD3A9D008CDBCD /* NetfilxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */; };
+		AF72DC9824FD3A9D008CDBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DC9724FD3A9D008CDBCD /* ContentView.swift */; };
+		AF72DC9A24FD3A9F008CDBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */; };
+		AF72DC9D24FD3A9F008CDBCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72DC9C24FD3A9F008CDBCD /* Preview Assets.xcassets */; };
+		AF72DCA824FD3A9F008CDBCD /* NetfilxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCA724FD3A9F008CDBCD /* NetfilxTests.swift */; };
+		AF72DCB324FD3A9F008CDBCD /* NetfilxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DCB224FD3A9F008CDBCD /* NetfilxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF72DCA424FD3A9F008CDBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF72DC8A24FD3A9D008CDBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF72DC9124FD3A9D008CDBCD;
+			remoteInfo = Netfilx;
+		};
+		AF72DCAF24FD3A9F008CDBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF72DC8A24FD3A9D008CDBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF72DC9124FD3A9D008CDBCD;
+			remoteInfo = Netfilx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF72DC9224FD3A9D008CDBCD /* Netfilx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netfilx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxApp.swift; sourceTree = "<group>"; };
+		AF72DC9724FD3A9D008CDBCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF72DC9C24FD3A9F008CDBCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF72DC9E24FD3A9F008CDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF72DCA324FD3A9F008CDBCD /* NetfilxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetfilxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72DCA724FD3A9F008CDBCD /* NetfilxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxTests.swift; sourceTree = "<group>"; };
+		AF72DCA924FD3A9F008CDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF72DCAE24FD3A9F008CDBCD /* NetfilxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetfilxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72DCB224FD3A9F008CDBCD /* NetfilxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxUITests.swift; sourceTree = "<group>"; };
+		AF72DCB424FD3A9F008CDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF72DC8F24FD3A9D008CDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DCA024FD3A9F008CDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DCAB24FD3A9F008CDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF72DC8924FD3A9D008CDBCD = {
+			isa = PBXGroup;
+			children = (
+				AF72DC9424FD3A9D008CDBCD /* Netfilx */,
+				AF72DCA624FD3A9F008CDBCD /* NetfilxTests */,
+				AF72DCB124FD3A9F008CDBCD /* NetfilxUITests */,
+				AF72DC9324FD3A9D008CDBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF72DC9324FD3A9D008CDBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DC9224FD3A9D008CDBCD /* Netfilx.app */,
+				AF72DCA324FD3A9F008CDBCD /* NetfilxTests.xctest */,
+				AF72DCAE24FD3A9F008CDBCD /* NetfilxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF72DC9424FD3A9D008CDBCD /* Netfilx */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */,
+				AF72DC9724FD3A9D008CDBCD /* ContentView.swift */,
+				AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */,
+				AF72DC9E24FD3A9F008CDBCD /* Info.plist */,
+				AF72DC9B24FD3A9F008CDBCD /* Preview Content */,
+			);
+			path = Netfilx;
+			sourceTree = "<group>";
+		};
+		AF72DC9B24FD3A9F008CDBCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DC9C24FD3A9F008CDBCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF72DCA624FD3A9F008CDBCD /* NetfilxTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCA724FD3A9F008CDBCD /* NetfilxTests.swift */,
+				AF72DCA924FD3A9F008CDBCD /* Info.plist */,
+			);
+			path = NetfilxTests;
+			sourceTree = "<group>";
+		};
+		AF72DCB124FD3A9F008CDBCD /* NetfilxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCB224FD3A9F008CDBCD /* NetfilxUITests.swift */,
+				AF72DCB424FD3A9F008CDBCD /* Info.plist */,
+			);
+			path = NetfilxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF72DC9124FD3A9D008CDBCD /* Netfilx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72DCB724FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "Netfilx" */;
+			buildPhases = (
+				AF72DC8E24FD3A9D008CDBCD /* Sources */,
+				AF72DC8F24FD3A9D008CDBCD /* Frameworks */,
+				AF72DC9024FD3A9D008CDBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netfilx;
+			productName = Netfilx;
+			productReference = AF72DC9224FD3A9D008CDBCD /* Netfilx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF72DCA224FD3A9F008CDBCD /* NetfilxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72DCBA24FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "NetfilxTests" */;
+			buildPhases = (
+				AF72DC9F24FD3A9F008CDBCD /* Sources */,
+				AF72DCA024FD3A9F008CDBCD /* Frameworks */,
+				AF72DCA124FD3A9F008CDBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF72DCA524FD3A9F008CDBCD /* PBXTargetDependency */,
+			);
+			name = NetfilxTests;
+			productName = NetfilxTests;
+			productReference = AF72DCA324FD3A9F008CDBCD /* NetfilxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF72DCAD24FD3A9F008CDBCD /* NetfilxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72DCBD24FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "NetfilxUITests" */;
+			buildPhases = (
+				AF72DCAA24FD3A9F008CDBCD /* Sources */,
+				AF72DCAB24FD3A9F008CDBCD /* Frameworks */,
+				AF72DCAC24FD3A9F008CDBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF72DCB024FD3A9F008CDBCD /* PBXTargetDependency */,
+			);
+			name = NetfilxUITests;
+			productName = NetfilxUITests;
+			productReference = AF72DCAE24FD3A9F008CDBCD /* NetfilxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF72DC8A24FD3A9D008CDBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AF72DC9124FD3A9D008CDBCD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AF72DCA224FD3A9F008CDBCD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AF72DC9124FD3A9D008CDBCD;
+					};
+					AF72DCAD24FD3A9F008CDBCD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AF72DC9124FD3A9D008CDBCD;
+					};
+				};
+			};
+			buildConfigurationList = AF72DC8D24FD3A9D008CDBCD /* Build configuration list for PBXProject "Netfilx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF72DC8924FD3A9D008CDBCD;
+			productRefGroup = AF72DC9324FD3A9D008CDBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF72DC9124FD3A9D008CDBCD /* Netfilx */,
+				AF72DCA224FD3A9F008CDBCD /* NetfilxTests */,
+				AF72DCAD24FD3A9F008CDBCD /* NetfilxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF72DC9024FD3A9D008CDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72DC9D24FD3A9F008CDBCD /* Preview Assets.xcassets in Resources */,
+				AF72DC9A24FD3A9F008CDBCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DCA124FD3A9F008CDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DCAC24FD3A9F008CDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF72DC8E24FD3A9D008CDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72DC9824FD3A9D008CDBCD /* ContentView.swift in Sources */,
+				AF72DC9624FD3A9D008CDBCD /* NetfilxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DC9F24FD3A9F008CDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72DCA824FD3A9F008CDBCD /* NetfilxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72DCAA24FD3A9F008CDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72DCB324FD3A9F008CDBCD /* NetfilxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF72DCA524FD3A9F008CDBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF72DC9124FD3A9D008CDBCD /* Netfilx */;
+			targetProxy = AF72DCA424FD3A9F008CDBCD /* PBXContainerItemProxy */;
+		};
+		AF72DCB024FD3A9F008CDBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF72DC9124FD3A9D008CDBCD /* Netfilx */;
+			targetProxy = AF72DCAF24FD3A9F008CDBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF72DCB524FD3A9F008CDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF72DCB624FD3A9F008CDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF72DCB824FD3A9F008CDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Netfilx/Preview Content\"";
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Netfilx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.Netfilx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF72DCB924FD3A9F008CDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Netfilx/Preview Content\"";
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Netfilx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.Netfilx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF72DCBB24FD3A9F008CDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				INFOPLIST_FILE = NetfilxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.NetfilxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netfilx.app/Netfilx";
+			};
+			name = Debug;
+		};
+		AF72DCBC24FD3A9F008CDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				INFOPLIST_FILE = NetfilxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.NetfilxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netfilx.app/Netfilx";
+			};
+			name = Release;
+		};
+		AF72DCBE24FD3A9F008CDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				INFOPLIST_FILE = NetfilxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.NetfilxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netfilx;
+			};
+			name = Debug;
+		};
+		AF72DCBF24FD3A9F008CDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTDDPSLG9G;
+				INFOPLIST_FILE = NetfilxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.NetfilxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netfilx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF72DC8D24FD3A9D008CDBCD /* Build configuration list for PBXProject "Netfilx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72DCB524FD3A9F008CDBCD /* Debug */,
+				AF72DCB624FD3A9F008CDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72DCB724FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "Netfilx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72DCB824FD3A9F008CDBCD /* Debug */,
+				AF72DCB924FD3A9F008CDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72DCBA24FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "NetfilxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72DCBB24FD3A9F008CDBCD /* Debug */,
+				AF72DCBC24FD3A9F008CDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72DCBD24FD3A9F008CDBCD /* Build configuration list for PBXNativeTarget "NetfilxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72DCBE24FD3A9F008CDBCD /* Debug */,
+				AF72DCBF24FD3A9F008CDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF72DC8A24FD3A9D008CDBCD /* Project object */;
+}
