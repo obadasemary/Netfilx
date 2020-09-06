@@ -67,8 +67,6 @@ struct HomeView_Previews: PreviewProvider {
 
 struct TopRowButtons: View {
     
-    
-    
     var body: some View {
         HStack {
             
