@@ -7,36 +7,34 @@
 
 import SwiftUI
 
-struct WhiteButton: View {
+struct PlayButton: View {
     
     var text: String
     var imageName: String
+    var backgroundColor: Color = Color.white
     
     var action: () -> Void
     
     var body: some View {
         
-        Button(action: {
-            action()
-        }, label: {
-            ZStack {
-                RoundedRectangle(cornerRadius: 3)
-                    .foregroundColor(.white)
-//                    .frame(width: 100, height: 40)
+        Button(action: action, label: {
+            
+            HStack {
+                Spacer()
                 
-                HStack {
-                        
-                    Image(systemName: imageName)
-                        .font(.headline)
-                    
-                    Text(text)
-                        .bold()
-                        .font(.system(size: 16))
-                }
-                .background(Color.white)
-                .foregroundColor(.black)
+                Image(systemName: imageName)
+                    .font(.headline)
+                
+                Text(text)
+                    .bold()
+                    .font(.system(size: 16))
+                
+                Spacer()
             }
             .padding(.vertical, 6)
+            .foregroundColor(backgroundColor == .white ? .black : .white)
+            .background(backgroundColor)
+            .cornerRadius(3.0)
         })
     }
 }
@@ -48,9 +46,10 @@ struct WhiteButton_Previews: PreviewProvider {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
-            WhiteButton(text: "Play", imageName: "play.fill") {
+            PlayButton(text: "Play", imageName: "play.fill") {
                 
             }
         }
+        .previewLayout(.sizeThatFits)
     }
 }
