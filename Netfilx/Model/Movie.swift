@@ -14,4 +14,10 @@ struct Movie: Identifiable {
     var thumbnailURL: URL
     
     var categories: [String]
+    
+    // MARK: - MovieDetail View
+    
+    var year: Int
+    var rating: String
+    var numberOfSeasons: Int?
 }
