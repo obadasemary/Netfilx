@@ -38,7 +38,50 @@ struct MovieDetail: View {
                             .frame(width: screen.width / 2.5)
                         
                         MovieInfoSubheadline(movie: movie)
+                        
+                        if movie.promotionHeadline != nil {
+                            
+                            Text(movie.promotionHeadline ?? "")
+                                .bold()
+                                .font(.headline)
+                        }
+                        
+                        PlayButton(text: "Play", imageName: "play.fill", backgroundColor: .red) {
+                            //
+                        }
+                        
+                        HStack {
+                            Text(movie.episodeInfoDisplay)
+                                .bold()
+                            Spacer()
+                        }
+                        .padding(.vertical, 4)
+                        
+                        HStack {
+                            Text(movie.episodeDescriptionDisplay)
+                                .font(.subheadline)
+                            Spacer()
+                        }
+                        
+                        VStack(spacing: 3) {
+                            
+                            HStack {
+                                Text("Cast: \(movie.cast)")
+                                
+                                Spacer()
+                            }
+                            
+                            HStack {
+                                Text("Creators: \(movie.creators)")
+                                
+                                Spacer()
+                            }
+                        }
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                        .padding(.vertical, 10)
                     }
+                    .padding(.horizontal, 10)
                 }
                 
                 Spacer()
@@ -50,6 +93,6 @@ struct MovieDetail: View {
 
 struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetail(movie: exampleMovie3)
+        MovieDetail(movie: exampleMovie6)
     }
 }
