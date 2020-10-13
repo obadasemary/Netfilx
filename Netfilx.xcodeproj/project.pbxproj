@@ -94,6 +94,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF68ED7825352609004A66B4 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCC024FD3B4C008CDBCD /* HomeView.swift */,
+				AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		AF68ED7F2535263A004A66B4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AF68ED802535264E004A66B4 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCD624FD9352008CDBCD /* WhiteButton.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		AF68ED812535265F004A66B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF72DCC824FD49E1008CDBCD /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AF72DC8924FD3A9D008CDBCD = {
 			isa = PBXGroup;
 			children = (
@@ -119,15 +152,14 @@
 			children = (
 				AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */,
 				AF72DC9724FD3A9D008CDBCD /* ContentView.swift */,
-				AF72DCC024FD3B4C008CDBCD /* HomeView.swift */,
-				AF72DCCE24FD4E85008CDBCD /* HomeVM.swift */,
+				AF68ED7825352609004A66B4 /* HomeViews */,
+				AF68ED802535264E004A66B4 /* HelperViews */,
+				AF68ED812535265F004A66B4 /* Model */,
+				AF68ED7F2535263A004A66B4 /* Helpers */,
 				AF72DCD024FD84A7008CDBCD /* TopMoviePreview.swift */,
 				AF72DCD224FD8AEF008CDBCD /* TopMoviesPreviewVM.swift */,
 				AF72DCD424FD8CC1008CDBCD /* SmallVerticalButton.swift */,
-				AF72DCD624FD9352008CDBCD /* WhiteButton.swift */,
-				AF72DCC824FD49E1008CDBCD /* Movie.swift */,
 				AF72DCCA24FD4A7A008CDBCD /* StandarHomeMovie.swift */,
-				AF72DCCC24FD4AF7008CDBCD /* GlobalHelpers.swift */,
 				AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */,
 				AF72DC9E24FD3A9F008CDBCD /* Info.plist */,
 				AF72DC9B24FD3A9F008CDBCD /* Preview Content */,
