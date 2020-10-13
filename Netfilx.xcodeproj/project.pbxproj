@@ -15,6 +15,7 @@
 		AF68EDB525353AC0004A66B4 /* CurrentEpisodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68EDB425353ABF004A66B4 /* CurrentEpisodeInfo.swift */; };
 		AF68EDBA2535579A004A66B4 /* CastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68EDB92535579A004A66B4 /* CastInfo.swift */; };
 		AF68EDBF25355846004A66B4 /* CurrentEpisodeInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68EDBE25355846004A66B4 /* CurrentEpisodeInformation.swift */; };
+		AF68EDC425355BDB004A66B4 /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68EDC325355BDB004A66B4 /* CustomTabSwitcher.swift */; };
 		AF72DC9624FD3A9D008CDBCD /* NetfilxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */; };
 		AF72DC9824FD3A9D008CDBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72DC9724FD3A9D008CDBCD /* ContentView.swift */; };
 		AF72DC9A24FD3A9F008CDBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72DC9924FD3A9F008CDBCD /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		AF68EDB425353ABF004A66B4 /* CurrentEpisodeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEpisodeInfo.swift; sourceTree = "<group>"; };
 		AF68EDB92535579A004A66B4 /* CastInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastInfo.swift; sourceTree = "<group>"; };
 		AF68EDBE25355846004A66B4 /* CurrentEpisodeInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEpisodeInformation.swift; sourceTree = "<group>"; };
+		AF68EDC325355BDB004A66B4 /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
 		AF72DC9224FD3A9D008CDBCD /* Netfilx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netfilx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF72DC9524FD3A9D008CDBCD /* NetfilxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxApp.swift; sourceTree = "<group>"; };
 		AF72DC9724FD3A9D008CDBCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				AF68EDAC2535356B004A66B4 /* RatingView.swift */,
 				AF68EDB92535579A004A66B4 /* CastInfo.swift */,
 				AF68EDBE25355846004A66B4 /* CurrentEpisodeInformation.swift */,
+				AF68EDC325355BDB004A66B4 /* CustomTabSwitcher.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				AF68EDB525353AC0004A66B4 /* CurrentEpisodeInfo.swift in Sources */,
 				AF72DCCB24FD4A7A008CDBCD /* StandarHomeMovie.swift in Sources */,
 				AF68EDA82535341E004A66B4 /* Episode.swift in Sources */,
+				AF68EDC425355BDB004A66B4 /* CustomTabSwitcher.swift in Sources */,
 				AF68EDBF25355846004A66B4 /* CurrentEpisodeInformation.swift in Sources */,
 				AF72DCD524FD8CC1008CDBCD /* SmallVerticalButton.swift in Sources */,
 			);
