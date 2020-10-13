@@ -17,16 +17,16 @@ struct MovieInfoSubheadline: View {
     
     var body: some View {
         
-        HStack {
+        HStack(spacing: 20) {
             
             Image(systemName: "hand.thumbsup.fill")
                 .foregroundColor(.white)
             
-            Text("MOVIE YEAR")
+            Text(String(movie.year))
             
-            Text("RATING")
+            RatingView(rating: movie.rating)
             
-            Text("seasons")
+            Text(movie.numberOfSeasonsDisplay)
         }
         .foregroundColor(.gray)
         .padding(.vertical, 6)
@@ -38,5 +38,7 @@ struct MovieInfoSubheadline: View {
 struct MovieInfoSubheadline_Previews: PreviewProvider {
     static var previews: some View {
         MovieInfoSubheadline(movie: exampleMovie3)
+            .previewLayout(.sizeThatFits)
+            .background(Color.black)
     }
 }
