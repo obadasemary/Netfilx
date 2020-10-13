@@ -53,25 +53,3 @@ struct MovieDetail_Previews: PreviewProvider {
         MovieDetail(movie: exampleMovie3)
     }
 }
-
-struct MovieInfoSubheadline: View {
-    
-    var movie: Movie
-    
-    var body: some View {
-        
-        HStack {
-            
-            Image(systemName: "hand.thumbsup.fill")
-                .foregroundColor(.white)
-            
-            Text("MOVIE YEAR")
-            
-            Text("RATING")
-            
-            Text("seasons")
-        }
-        .foregroundColor(.gray)
-        .padding(.vertical, 6)
-    }
-}
