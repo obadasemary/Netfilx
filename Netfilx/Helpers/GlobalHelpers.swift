@@ -8,6 +8,12 @@
 import Foundation
 import SwiftUI
 
+enum CustomTab: String {
+    case episodes = "EPISODES"
+    case trailers = "TRAILERS & MORE"
+    case more = "MORE LIKE THIS"
+}
+
 let categories = [
     "Action",
     "Adventure",
@@ -141,4 +147,15 @@ extension LinearGradient {
         startPoint: .top,
         endPoint: .bottom
     )
+}
+
+extension String {
+    
+    func widthOfString(usingFont font: UIFont) -> CGFloat {
+        
+        let fontAttributes = [NSAttributedString.Key.font: font]
+        let size = self.size(withAttributes: fontAttributes)
+        
+        return size.width
+    }
 }
