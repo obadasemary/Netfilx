@@ -9,8 +9,14 @@ import SwiftUI
 
 struct MovieDetail: View {
     
+    
+    // MARK: - PROPERTIES
+    
     var movie: Movie
+    
     let screen = UIScreen.main.bounds
+    
+    // MARK: - BODY
     
     var body: some View {
         ZStack {
@@ -50,36 +56,9 @@ struct MovieDetail: View {
                             //
                         }
                         
-                        HStack {
-                            Text(movie.episodeInfoDisplay)
-                                .bold()
-                            Spacer()
-                        }
-                        .padding(.vertical, 4)
+                        CurrentEpisodeInformation(movie: movie)
                         
-                        HStack {
-                            Text(movie.episodeDescriptionDisplay)
-                                .font(.subheadline)
-                            Spacer()
-                        }
-                        
-                        VStack(spacing: 3) {
-                            
-                            HStack {
-                                Text("Cast: \(movie.cast)")
-                                
-                                Spacer()
-                            }
-                            
-                            HStack {
-                                Text("Creators: \(movie.creators)")
-                                
-                                Spacer()
-                            }
-                        }
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                        .padding(.vertical, 10)
+                        CastInfo(movie: movie)
                     }
                     .padding(.horizontal, 10)
                 }
@@ -90,6 +69,8 @@ struct MovieDetail: View {
         }
     }
 }
+
+// MARK: - PREVIEW
 
 struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
